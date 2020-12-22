@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Contact Page</title>
+<link rel="stylesheet" href="contact.css" />
+
+</head>
+
+<body>
+    <header>
+        <div class="navigation-bar">
+        <div class="navigation-container">
+        <a href="index.html"><img class="logo" src="Serwah_Final_Logo_RGB.png" alt="logo"></a>
+        </div>
+    </div>
+
+    </header>
+<main>
+<div class="contact-form">
+<h1>Let's Connect!</h1>
+<h2>For projects, questions and inquiries, fill out the forms below.
+</h2>
+<form id="contact-form" action="http://localhost:3002/send" method="POST">
+    <input type="name" name="name" placeholder="Name" /><br />
+    <input type="email" name="email" placeholder="Email" /><br />
+    <input type="subject" name="subject" placeholder="Subject" />
+    <textarea name="message" placeholder="Your message"></textarea><br />
+<a href="" class="btn" type="Submit">Send Message</a>
+</form>
+</body>
+<script src="/index.js" type="module"></script>
+</div>
+</main>
+</html>

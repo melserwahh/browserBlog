@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #09a5a0;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 6px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+h2 {
+    color: #0f0f0f;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+    text-align: center;
+    
+}
+
+body {
+    color: #545454;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 3em;
+    text-align: center;
+}
+
+
+form {
+    display: inline-block;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+}
+
+input {
+    padding: 9px;
+    font-size:inherit;
+    background-color: #f6ffff;
+    border-width: thin;
+    width: 400px;
+    height: 50px;
+    
+}
+
+textarea {
+    padding: 5px;
+    font-size: inherit;
+    font-family: inherit;
+    width: 400px;
+    height: 170px;
+    background-color: #f6ffff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.6rem 4.5rem;
+    background: #237774;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 15px;
+    transition: background 0.5s;
+}
+
+.btn:hover {
+    background: #529795;
+}
+
+header {
+    display: inline-flex;
+    padding: 2em;
+    max-width: 900px;
+    
+    }
+   
+      .navigation-bar {
+          width: 400px;
+      }
